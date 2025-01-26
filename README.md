@@ -31,19 +31,18 @@ adopt a schedule similar to the one mentioned in the book of: 1/3 planning, 1/6 
 
 # Video Questions
 
-currently @ 3:30 in video
-
 describe the following git commands:
 
-1. git checkout: Very safe, won't let your edit/ruin commit history
-Can use a checkout commit to view code at a certain point in time, this is read only so commit history cannot be altered
+1. git checkout is very safe since it won't let you edit/ruin  your commit history.
+git checkout can be used to view code at a certain point in time, this is read only so commit history cannot be altered.
+A use of git checkout is: git checkout 'master', this reattaches us to the master branch after checking out a previous commit.
 
 
-2. git revert: Still safe, but a little less than checkout
-Allows us to undo a particular commit, almost like it deletes it but it doesn't really however effect is still the same
-in that it's like it never existed
+2. git revert is still safe, but could be a little less so than checkout.
+It allows us to undo a particular commit. A use of git revert is: git revert 'commit name' this creates a new commit that reverts a previous commit's changes effectively undoing it while still keeping its history.
 
 
 
-3. git reset: Sort of unsafe, could ruin repo
-Permanently takes you back in time to a certain commit, permanently deleting the commits after the time travel
+3. git reset is sort of unsafe and could ruin a repository. It permanently takes you back in time to a certain commit, permanently deleting the commits after the time travel.
+A use of git reset is: git reset 'commit name' this deletes the commits after the commit entered leaving only the changes on the local machine.
+If we want to go further and also remove the changes locally we can  additionally pass '--hard' with the command.
