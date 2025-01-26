@@ -26,23 +26,23 @@ developing the games and poor communication when adapting multiplayer mechanics 
 
 5. How do you plan on using the concepts from this book and applying it to your project in this course?
 I plan to create a solid communicative base for the project so no member is left behind and has to play "catch-up" delaying the project.
-I also plan to encourage my group members to allocate enough time to properly plan, test components and test the whole system. Hopefully we can
-adopt a schedule similar to the one mentioned in the book of: 1/3 planning, 1/6 coding, 1/4 component test and early system test and 1/4 system test.
+I also plan to encourage my group members to allocate enough time to properly plan, test components, and test the whole system. Hopefully we can
+adopt a schedule similar to the one mentioned in the book of: 1/3 planning, 1/6 coding, 1/4 component test, and early system test and 1/4 system test.
 
 # Video Questions
 
-describe the following git commands:
+Describe the following git commands:
 
-1. git checkout is very safe since it won't let you edit/ruin  your commit history.
+1. Git checkout is very safe since it won't let you edit or ruin your commit history.
 git checkout can be used to view code at a certain point in time, this is read only so commit history cannot be altered.
 A use of git checkout is: git checkout 'master', this reattaches us to the master branch after checking out a previous commit.
 
 
-2. git revert is still safe, but could be a little less so than checkout.
+2. Git revert is still safe, but could be a little less so than checkout.
 It allows us to undo a particular commit. A use of git revert is: git revert 'commit name' this creates a new commit that reverts a previous commit's changes effectively undoing it while still keeping its history.
 
 
 
-3. git reset is sort of unsafe and could ruin a repository. It permanently takes you back in time to a certain commit, permanently deleting the commits after the time travel.
+3. Git reset is sort of unsafe and could ruin a repository. It permanently takes you back in time to a certain commit, permanently deleting the commits after the time travel.
 A use of git reset is: git reset 'commit name' this deletes the commits after the commit entered leaving only the changes on the local machine.
 If we want to go further and also remove the changes locally we can  additionally pass '--hard' with the command.
