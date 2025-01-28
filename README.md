@@ -46,3 +46,7 @@ It allows us to undo a particular commit. A use of git revert is: git revert 'co
 3. Git reset is sort of unsafe and could ruin a repository. It permanently takes you back in time to a certain commit, permanently deleting the commits after the time travel.
 A use of git reset is: git reset 'commit name' this deletes the commits after the commit entered leaving only the changes on the local machine.
 If we want to go further and also remove the changes locally we can  additionally pass '--hard' with the command.
+
+# AI Declaration Form 
+
+[AI Declaration Form](L2_AI_DECLARATION_ERIK_SCHAUFELE_301579449.pdf)
